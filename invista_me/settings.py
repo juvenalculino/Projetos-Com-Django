@@ -15,7 +15,7 @@ import dj_database_url
 import os
 import whitenoise
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+# Build paths inside the project like this: BASE_DIR / 'subdir'...
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-h$=%=(2=9j(+9yk3v+a=+=us%_32+qth61hv))n5(0vo$e6ajt'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with debug turned on in production!!
 DEBUG = False
 
 ALLOWED_HOSTS = ['appinvestir.herokuapp.com', '127.0.0.1']
